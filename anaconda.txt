@@ -1,0 +1,25 @@
+anaconda
+cd\: 최상위 폴더
+cd kkc/Desktop/workspace
+
+anaconda prompt 관리자 권한 실행
+cd /kkc/Desktop/workspace
+
+conda env list : 가상환경 리스트업
+conda create --name myenv python=3.9
+: 가상환경 생성 myenv(이름) python 3.9Ver
+conda activate myenv: myenv 활성화 base>myenv
+pip3 install jupyter notebook :
+3Ver jupyter notebook 설치
+
+파랑: command mode
+초록: edit mode
+
+a: 위로 셀 생성
+b: 아래로 셀 생성
+m: 마크 다운 <-> y: 코드
+dd: 셀 삭제
+
+변수: 유지보수 간단? 반복되는 동작을 제어?
+데이터 저장/재사용/유지보수/메모리 관리/
+
